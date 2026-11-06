@@ -18,8 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     default: 'Hello SV Washing Machine, I would like to enquire about your appliance repair service.',
     washing_machine: 'Hello SV Washing Machine, I need help with my washing machine.',
     refrigerator: 'Hello SV Washing Machine, I need help with my refrigerator.',
-    microwave: 'Hello SV Washing Machine, I need help with my microwave oven.',
-    water_purifier: 'Hello SV Washing Machine, I need help with my water purifier.'
+    microwave: 'Hello SV Washing Machine, I need help with my microwave oven.'
   };
 
   /**

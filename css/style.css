@@ -980,7 +980,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
 }
 
@@ -1148,39 +1148,40 @@ h1, h2, h3, h4, h5, h6 {
 .service-wa-btn {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
+  gap: 8px;
   font-family: var(--font-heading);
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--white);
-  background: var(--grad-whatsapp);
-  padding: 11px 18px;
+  background: var(--success);
+  padding: 10px 16px;
   border-radius: var(--radius-sm);
-  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  transition: all var(--transition-normal);
+  border: none;
+  box-shadow: none;
+  transition: all var(--transition-fast);
   text-decoration: none;
   flex: 1;
   justify-content: center;
+  white-space: nowrap;
 }
 
 .service-wa-btn .wa-icon-large {
-  width: 25px;
-  height: 25px;
+  width: 18px;
+  height: 18px;
   fill: currentColor;
   flex-shrink: 0;
   transition: transform var(--transition-fast);
 }
 
 .service-wa-btn:hover {
-  transform: translateY(-2px);
-  background: linear-gradient(135deg, #059669 0%, #047857 100%);
-  box-shadow: 0 8px 22px rgba(16, 185, 129, 0.42);
+  background: #15803d;
   color: var(--white);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.25);
 }
 
 .service-wa-btn:hover .wa-icon-large {
-  transform: scale(1.12);
+  transform: scale(1.08);
 }
 
 .service-call-btn {
@@ -1190,9 +1191,9 @@ h1, h2, h3, h4, h5, h6 {
   gap: 7px;
   font-family: var(--font-heading);
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--navy);
-  padding: 11px 16px;
+  padding: 10px 16px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
@@ -1212,7 +1213,7 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--white);
   border-color: var(--primary);
   color: var(--primary);
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   box-shadow: var(--shadow-sm);
 }
 

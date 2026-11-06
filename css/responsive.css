@@ -80,6 +80,10 @@
     margin: 0 auto;
   }
 
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .why-us-grid {
     grid-template-columns: repeat(2, 1fr);
   }
